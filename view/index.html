@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="../designs/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-text">John Rey Gavino</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-button>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" data-nav>
+        <a class="nav-link" href="#about" data-navlink>About</a>
+        <a class="nav-link" href="#projects" data-navlink>Projects</a>
+        <a class="nav-link" href="#skills" data-navlink>Skills</a>
+        <a class="nav-link" href="#education" data-navlink>Education</a>
+        <a class="nav-link" href="#contact" data-navlink>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-label="Intro">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <!--<p class="eyebrow">• UI/UX • Automation</p>-->
+          <h1>Gavino John Rey</h1>
+          <p class="lead">
+            IT Graduate from Saint Francis Institute of Computer Studies, specializing in programming and computer
+            systems. Equipped with up-to-date technical knowledge and a passion for new technologies, I am ready to
+            bring
+            fresh perspectives and reliable technical skills to a collaborative development team.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-meta" aria-label="Highlights">
+            <div class="meta-card">
+              <div class="meta-title">Focus</div>
+              <div class="meta-value">Performance & UX</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-title">Workflow</div>
+              <div class="meta-value">Design → Build </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Profile image">
+          <div class="avatar-frame">
+            <img class="avatar" src="../designs/pics/profile.jpg" alt="Portrait placeholder"
+              onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('beforeend', '<div class=avatar-fallback>Add an image: designs/pics/profile.jpg</div>');" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Quick snapshot of who you are and what you do.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>What I do</h3>
+            <p>
+              I build responsive front-ends, sturdy APIs, and delightful micro-interactions.
+              I also care about accessibility, code quality, and maintainable architecture.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>How I work</h3>
+            <p>
+              Plan it, build it simply, then test it. Keep the steps small
+              so you can move fast without breaking things.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Tooling</h3>
+            <p>
+              HTML5, CSS3, JavaScript, Git, and modern developer tools.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Showcase 3–6 projects. Add links and descriptions you’re proud of.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-media">
+              <div class="project-img" role="img" aria-label="Project One screenshot">
+                <img src="../designs/pics/Project-1.png" alt="Project One screenshot" />
+              </div>
+            </div>
+            </br>
+
+            <div class="project-body">
+              <h3>Hawkeye Motor Parts</h3>
+              <p class="muted">this is a thesis project that we build using PHP, using an angular as framework and MySQL
+                for backend</p>
+              <ul class="tag-list">
+                <li class="tag">PHP</li>
+                <li class="tag">Angular</li>
+                <li class="tag">MySQL</li>
+
+              </ul>
+              <!--<div class="project-actions">
+                <a class="btn btn-small btn-primary" href="#">Live Demo</a>
+                <a class="btn btn-small btn-ghost" href="#">Source Code</a>
+              </div>-->
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-media">
+              <div class="project-img" role="img" aria-label="Project image placeholder">
+                <img src="../designs/pics/Project-2.png" alt="Project Two screenshot"
+                  onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('beforeend', '<div class=project-img-fallback>Add an image: designs/pics/Projects-2.png</div>');" />
+              </div>
+            </div>
+            </br>
+
+            <div class="project-body">
+              <h3>Slot Machine</h3>
+              <p class="muted"> School Activity and Project </p>
+              <ul class="tag-list">
+
+                <li class="tag">Visual Basic</li>
+              </ul>
+              <!--<div class="project-actions">
+                <a class="btn btn-small btn-primary" href="#">Live Demo</a>
+                <a class="btn btn-small btn-ghost" href="#">Source Code</a>
+              </div>-->
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-media">
+              <div class="project-img" role="img" aria-label="Project image placeholder">
+                <img src="../designs/pics/Project-3.png" alt="Project Three screenshot"
+                  onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('beforeend', '<div class=project-img-fallback>Add an image: designs/pics/Projects-3.png</div>');" />
+              </div>
+            </div>
+            </br>
+
+            <div class="project-body">
+              <h3>Montefaro</h3>
+              <p class="muted">a project in ojt for brokers and sellers where they can see the price, presentation
+                Materials, and computation of the model house</p>
+              <ul class="tag-list">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+              </ul>
+              <!--<div class="project-actions">
+                <a class="btn btn-small btn-primary" href="#">Live Demo</a>
+                <a class="btn btn-small btn-ghost" href="#">Source Code</a>
+              </div>-->
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Front-end, back-end, and tools I use to build reliable applications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 class="skill-group-title">Front-end</h3>
+            <div class="skills">
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/html.png" alt="HTML logo" onerror="this.style.display='none';" />
+                <span>HTML</span>
+              </div>
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/css.png" alt="CSS logo" onerror="this.style.display='none';" />
+                <span>CSS</span>
+              </div>
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/js.png" alt="JavaScript logo" onerror="this.style.display='none';" />
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/react.png" alt="React logo" onerror="this.style.display='none';" />
+                <span>React</span>
+              </div>
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/angular.png" alt="Angular logo" onerror="this.style.display='none';" />
+                <span>Angular</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Back-end</h3>
+            <div class="skills">
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/nodejs.png" alt="Node.js logo" onerror="this.style.display='none';" />
+              </div>
+              <div class="skill-tile">APIs</div>
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/php.png" alt="PHP logo" onerror="this.style.display='none';" />
+              </div>
+              <div class="skill-tile">
+                <img class="skill-logo" src="../designs/pics/mysql.png" alt="MySQL logo" onerror="this.style.display='none';" />
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Tools</h3>
+            <div class="skills">
+              <div class="skill-tile">Git</div>
+              <div class="skill-tile">npm</div>
+              <div class="skill-tile">VS Code</div>
+              <div class="skill-tile">Debugging & Testing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Educational Background</h2>
+          <p>Elementary, junior high school, senior high school, and college.</p>
+        </div>
+
+        <div class="education-grid">
+          <div class="education-card">
+            <h3>Elementary</h3>
+            <p><strong>School name</strong> — 20XX to 20XX</p>
+          </div>
+          <div class="education-card">
+            <h3>Junior High School</h3>
+            <p><strong>School name</strong> — 20XX to 20XX</p>
+          </div>
+          <div class="education-card">
+            <h3>Senior High School</h3>
+            <p><strong>School name</strong> — 20XX to 20XX</p>
+            <p><span class="muted">Degree:</span> <strong>Senior High School Degree / Strand</strong></p>
+          </div>
+          <div class="education-card">
+            <h3>College</h3>
+            <p><strong>School name</strong> — 20XX to 20XX</p>
+            <p><span class="muted">Degree:</span> <strong>Your Degree</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Simple contact section. Replace the links/values with your own.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <form action="http://localhost:3000/send" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Email</button>
+          </form>
+
+          <div class="card">
+            <h3>Social</h3>
+            <div class="contact-links">
+              <a class="link" href="https://www.facebook.com/johnrey.gavino.374">Facebook</a>
+              <a class="link" href="https://mail.google.com/mail/?view=cm&fs=1&to=johnreygavino95@gmail.com">Gmail</a>
+              <a class="link" href="https://www.linkedin.com/in/johnrey-gavino-3184a4410/">LinkedIn</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="muted">© <span id="year"></span> Your Name. Built with HTML/CSS/JS.</p>
+      <div class="footer-links">
+        <a class="link" href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script/main.js"></script>
+</body>
+
+</html>
